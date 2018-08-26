@@ -1,0 +1,95 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+
+
+body {
+
+    font-family: "Arial", sans-serif;
+    font-style: italic;
+    font-size: 16pt;
+    text-align: center;
+    background-color: lightcyan;
+}
+
+
+.nav {
+    background-color: lightcyan;
+
+    list-style: none;
+    padding: 25 px 5px 25px 5px;
+
+}
+
+
+.nav > li {
+    display: inline-block;
+    padding: 25px 25px 25px 25px;
+
+}
+
+.nav > li > a {
+    text-decoration: none;
+    color: gray;
+    font-size: 1.5vw;
+    text-align: center;
+    font-style: normal;
+}
+
+.nav > li > a:hover {
+    color: skyblue;
+}
+
+
+.pagetitle {
+    padding: 0px;
+    background-color: white;
+    font-size: 50px;
+    font-family:sans-serif;
+    font-style: normal;
+}
+
+.pageinfo {
+    padding: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-family:sans-serif;
+    font-style: italic;
+}
+
+.boxing {
+    border: 25px;
+    border-color: purple;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+    text-align: left;
+    border-left: 70px;
+    border-left-color: lightcyan;
+    border-left-style: solid;
+    font-style: normal;
+}
+
+
+}
+    
+
+
+
+.process {
+    font-family: cursive;
+    font-size: 2vw;
+}
+.images{
+    width: 80%;
+    border: 5px red;
+}
+
+img {
+    height: 200px;
+    
